@@ -1,0 +1,96 @@
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: grey; 
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: lightslategray; 
+}
+
+.App{
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.header {
+    height: 70px;
+    width: 100%;
+    background-color: #404040;
+    padding-left: 20px;
+    padding-top: 5px;
+}
+
+.footer {
+    height: 70px;
+    width: 100%;
+    padding-top: 25px;
+    padding-left: 40%;
+    background-color: #404040;
+}
+
+.owner {
+    font-weight: 700;
+    color: whitesmoke;
+}
+
+.gtitle {
+    width: 200px;
+    font-size: 36px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
+}
+
+.customTable {
+    justify-content: center;
+    align-items: center;
+}
+
+.photo {
+    width: 80px;
+    height: 80px;
+    border-radius: 5px;
+}
+
+.photo:hover {
+    width: 120px;
+    height: 120px;
+    border-radius: 5px;
+}
+
+.title {
+    width: 300px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.paragraph {
+    width: 400px;
+    text-align: center;
+}
+
+.rating {
+    text-align: center;
+}
+
+.rate {
+    font-size: 18px;
+    color: blue;
+    font-weight: 500;
+}
+
+.star {
+    color: yellow;
+}
